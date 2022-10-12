@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to right, rgb(0, 0, 24), rgb(2, 2, 155));
+    color: #fff;
+    background-size: cover;
+}
+
+.logo {
+    height: 90px;
+    width: 70px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.btn-section {
+    margin-right: 80px;
+}
+
+.btn-1 {
+    background-color: rgb(6, 6, 223);
+    color: #fff;
+    font-weight: 900;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.btn-2 {
+    background-color: #fff;
+    color: rgb(6, 6, 223);
+    font-weight: 900;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.body-container {
+    padding-left: 30px;
+    display: flex;
+}
+
+.body-container h1 {
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+.body-container p {
+    font-size: 1.2rem;
+}
+
+.body-text {
+    width: 50%;
+}
+
+.body-text button {
+    height: 40px;
+    padding: 10px 30px;
+    color: rgb(1, 1, 82);
+    border-radius: 20px;
+    border: none;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+.img-text {
+    width: 50%;
+}
+
+.image-col {
+    height: 500px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
